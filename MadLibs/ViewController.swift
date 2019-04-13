@@ -15,7 +15,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        pastTenseVerbTextField.stringValue="ate"
+        pastTenseVerbTextField.stringValue="ate ate ate..."
     }
 
     override var representedObject: Any? {
