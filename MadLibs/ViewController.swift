@@ -13,7 +13,7 @@ class ViewController: NSViewController {
     @IBOutlet weak var pastTenseVerbTextField: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("App load.")
         // Do any additional setup after loading the view.
         pastTenseVerbTextField.stringValue="ate ate ate..."
     }
